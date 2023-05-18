@@ -9,7 +9,7 @@ const Header = ({ cartItems }) => {
         <header className="container nav">
             <div className="row">
                 <div className="left">
-                    <Link to="/">
+                    <Link to="/simo-delicatessen">
                         <img src={logo} className="logo" />
                     </Link>
                 </div>

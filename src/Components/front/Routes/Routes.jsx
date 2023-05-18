@@ -20,7 +20,7 @@ const Routes = ({
     return (
         <div>
             <Switch>
-                <Route path="/" exact>
+                <Route path="/simo-delicatessen" exact>
                     <Home types={types} />
                 </Route>
                 <Route path="/produktai" exact>
