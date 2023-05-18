@@ -91,3 +91,37 @@
     justify-content: center;
     font-size: 22px;
 }
+
+@media (max-width: 576px) {
+    .container.cart {
+        padding-left: 20px;
+        padding-right: 20px;
+        .row {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .cart-items {
+                flex-direction: column;
+                margin-bottom: 20px;
+                .cart-img {
+                    margin-bottom: 30px;
+                }
+                .item-title {
+                    margin-bottom: 30px;
+                }
+                .cart-btn {
+                    margin-bottom: 30px;
+                }
+            }
+            .bottom-btn {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .empty.cart {
+        margin-bottom: 60px;
+    }
+}
