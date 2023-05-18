@@ -1,0 +1,23 @@
+.container.nav.bottom {
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    background-color: black;
+    .row {
+        display: flex;
+        width: 1200px;
+        margin-left: calc(50% - 600px);
+        .left {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            .nav {
+                display: flex;
+                align-items: center;
+                font-size: 20px;
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}

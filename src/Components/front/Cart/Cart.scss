@@ -1,0 +1,93 @@
+.container.cart {
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    .row {
+        display: grid;
+        width: 1000px;
+        margin-left: calc(50% - 500px);
+        .title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .list {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            .cart-items {
+                width: 100%;
+                padding: 15px;
+                display: flex;
+                background-color: lightgray;
+                border-radius: 3px;
+                justify-content: space-between;
+                align-items: center;
+                //overflow: hidden;
+                .cart-img {
+                    border-radius: 10px;
+                    width: 300px;
+                }
+                .item-title {
+                    width: 260px;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+                .cart-btn {
+                    width: 100px;
+                    button {
+                        font-size: 30px;
+                        border: none;
+                        background-color: white;
+                        cursor: pointer;
+                        transition: all 0.3s;
+                        padding: 2px 15px;
+                        border-radius: 2px;
+                        &:hover {
+                            background-color: black;
+                            color: white;
+                        }
+                    }
+                }
+                .quantity {
+                    font-size: 18px;
+                    margin-right: 20px;
+                    font-weight: 400;
+                }
+            }
+            .totals {
+                text-align: center;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            .bottom-btn {
+                display: flex;
+                width: 200px;
+                margin-left: calc(50% - 100px);
+                align-items: center;
+                justify-content: space-between;
+                button {
+                    font-size: 18px;
+                    padding: 3px 15px;
+                    background-color: white;
+                    border: 1px solid black;
+                    border-radius: 2px;
+                    transition: all 0.3s;
+                    &:hover {
+                        background-color: black;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.empty.cart {
+    display: flex;
+    height: 40vh;
+    margin-top: 100px;
+    justify-content: center;
+    font-size: 22px;
+}

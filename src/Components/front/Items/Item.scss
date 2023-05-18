@@ -1,0 +1,54 @@
+.container.item {
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    background-color: lightgray;
+    .row {
+        display: flex;
+        width: 1200px;
+        margin-left: calc(50% - 600px);
+        .left {
+            display: flex;
+            width: 60%;
+            .item-img {
+                img {
+                    width: 100%;
+                    height: 500px;
+                    object-fit: cover;
+                    object-position: center;
+                    border-radius: 3px;
+                }
+            }
+        }
+        .right {
+            width: 40%;
+            .item-title {
+                font-size: 20px;
+                font-weight: 500;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+            .item-description {
+                line-height: 0.6cm;
+            }
+            .item-price {
+                margin-top: 20px;
+            }
+            .btn {
+                margin-top: 60px;
+                padding: 5px 15px;
+                font-size: 16px;
+                background-color: black;
+                color: white;
+                border: none;
+                border-radius: 2px;
+                cursor: pointer;
+                transition: all 0.3s;
+                &:hover {
+                    background-color: white;
+                    color: black;
+                }
+            }
+        }
+    }
+}

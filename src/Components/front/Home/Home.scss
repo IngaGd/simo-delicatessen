@@ -1,0 +1,53 @@
+.container.types {
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    .row {
+        display: grid;
+        width: 1200px;
+        margin-left: calc(50% - 600px);
+        .list {
+            // content
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            .card {
+                //item
+                width: 100%;
+                overflow: hidden;
+                .img-container {
+                    position: relative;
+                    .img {
+                        width: 100%;
+                        height: 600px;
+                        object-fit: cover;
+                        object-position: center;
+                        border-radius: 3px;
+                        :hover {
+                            cursor: pointer;
+                        }
+                    }
+                    .description {
+                        position: absolute;
+                        bottom: 50px;
+                        left: 50px;
+                        color: white;
+                        text-shadow: 1px 1px black;
+                        .left {
+                            float: left;
+                            width: 400px;
+                            .title {
+                                margin-bottom: 20px;
+                                font-size: 26px;
+                            }
+                            .text {
+                                font-size: 16px;
+                                line-height: 0.6cm;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
