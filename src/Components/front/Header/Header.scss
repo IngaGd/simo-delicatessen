@@ -18,7 +18,10 @@
             width: 80%;
             display: flex;
             justify-content: flex-end;
-            .nav {
+            .nav-mob {
+                display: none;
+            }
+            .nav-main {
                 display: flex;
                 align-items: center;
                 margin-bottom: 0px;
@@ -33,10 +36,21 @@
                         background-color: black;
                         color: white;
                     }
+                    .fa-glass {
+                        font-size: 40px;
+                        display: flex;
+                        span {
+                            padding-top: 10px;
+                            padding-left: 5px;
+                            font-family: sans-serif;
+                            font-size: 20px;
+                            text-align: center;
+                        }
+                    }
                 }
                 .cart {
                     color: black;
-                    font-size: 26px;
+                    font-size: 50px;
                     margin-left: 20px;
                     transition: all 0.3s;
                     padding: 5px 15px;
@@ -56,6 +70,17 @@
                     background-color: white;
                     margin-right: 10px;
                     transition: all 0.3s;
+                    .fa-instagram {
+                        font-size: 40px;
+                        display: flex;
+                        span {
+                            padding-top: 10px;
+                            padding-left: 5px;
+                            font-family: sans-serif;
+                            font-size: 20px;
+                            text-align: center;
+                        }
+                    }
                     .track {
                         font-size: 18px;
                     }
@@ -84,6 +109,44 @@
                             background-color: black;
                             color: white;
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container.nav {
+        padding-left: 20px;
+        padding-right: 20px;
+        .row {
+            width: 100%;
+            margin: 0;
+            .left {
+                .logo {
+                    width: 50px;
+                }
+            }
+            .right {
+                .nav-main {
+                    display: none;
+                }
+                .nav-mob {
+                    display: flex;
+                    width: 40%;
+                    align-items: center;
+                    justify-content: space-between;
+                    font-size: 25px;
+                    cursor: pointer;
+                    .fa-glass {
+                        color: black;
+                    }
+                    .fa-instagram {
+                        color: black;
+                    }
+                    .cart {
+                        color: black;
                     }
                 }
             }

@@ -14,14 +14,18 @@ const Header = ({ cartItems }) => {
                     </Link>
                 </div>
                 <div className="right">
-                    <div className="nav">
-                        <div>
-                            <Link to="/produktai" className="products-link">
-                                ot couture
-                            </Link>
-                        </div>
+                    <div className="nav-main">
+                        <Link to="/produktai" className="products-link">
+                            <i class="fa fa-glass" aria-hidden="true">
+                                <span>ot couture</span>
+                            </i>
+                        </Link>
                         <button className="custom-button">
-                            <span className="track">simo.delicatessen</span>
+                            <span className="track">
+                                <i className="fa fa-instagram">
+                                    <span>simo.delicatessen</span>
+                                </i>
+                            </span>
                             <a
                                 href="https://www.instagram.com/simo.delicatessen/"
                                 className="sekti-link"
@@ -29,6 +33,26 @@ const Header = ({ cartItems }) => {
                                 Sekti
                             </a>
                         </button>
+                        <Link to="/cart" className="cart">
+                            <i className="fa fa-shopping-cart">
+                                <span className="basket-qnt">
+                                    {cartItems.length === 0
+                                        ? ''
+                                        : cartItems.length}
+                                </span>
+                            </i>
+                        </Link>
+                    </div>
+                    <div className="nav-mob">
+                        <Link to="/produktai" className="products-link">
+                            <i class="fa fa-glass" aria-hidden="true"></i>
+                        </Link>
+                        <a
+                            href="https://www.instagram.com/simo.delicatessen/"
+                            className=""
+                        >
+                            <i className="fa fa-instagram" />
+                        </a>
                         <Link to="/cart" className="cart">
                             <i className="fa fa-shopping-cart">
                                 <span className="basket-qnt">

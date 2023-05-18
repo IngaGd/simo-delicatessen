@@ -51,3 +51,44 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    .container.types {
+        padding-left: 20px;
+        padding-right: 20px;
+        .row {
+            width: 100%;
+            margin: 0;
+            .list {
+                .card {
+                    .img-container {
+                        .img {
+                            border-radius: 25px;
+                        }
+                        .description {
+                            position: absolute;
+                            bottom: 20px;
+                            left: 20px;
+                            color: white;
+                            text-shadow: 1px 1px black;
+                            .left {
+                                float: left;
+                                width: 100%;
+                                .title {
+                                    margin-bottom: 20px;
+                                    font-size: 26px;
+                                }
+                                .text {
+                                    font-size: 16px;
+                                    line-height: 0.6cm;
+                                    width: 90%;
+                                    text-align: justify;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
