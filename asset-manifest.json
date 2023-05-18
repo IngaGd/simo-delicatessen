@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/simo-delicatessen/static/css/main.b13b6cf6.css",
-    "main.js": "/simo-delicatessen/static/js/main.0cd118b5.js",
+    "main.css": "/simo-delicatessen/static/css/main.a717f57b.css",
+    "main.js": "/simo-delicatessen/static/js/main.1c4d6c0f.js",
     "static/media/probiotiniai.png": "/simo-delicatessen/static/media/probiotiniai.14d220eea638af093908.png",
     "static/media/obuoliu.jpg": "/simo-delicatessen/static/media/obuoliu.eae0afbd19aee36c81be.jpg",
     "static/media/juoduju-serbentu-ir-metos.jpg": "/simo-delicatessen/static/media/juoduju-serbentu-ir-metos.4e231247405e1021acc2.jpg",
@@ -11,11 +11,11 @@
     "static/media/obuoliu-aroniju.jpg": "/simo-delicatessen/static/media/obuoliu-aroniju.dd662d8a701be1fde0dd.jpg",
     "static/media/logo.png": "/simo-delicatessen/static/media/logo.8cec22fcca094260425c.png",
     "index.html": "/simo-delicatessen/index.html",
-    "main.b13b6cf6.css.map": "/simo-delicatessen/static/css/main.b13b6cf6.css.map",
-    "main.0cd118b5.js.map": "/simo-delicatessen/static/js/main.0cd118b5.js.map"
+    "main.a717f57b.css.map": "/simo-delicatessen/static/css/main.a717f57b.css.map",
+    "main.1c4d6c0f.js.map": "/simo-delicatessen/static/js/main.1c4d6c0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b13b6cf6.css",
-    "static/js/main.0cd118b5.js"
+    "static/css/main.a717f57b.css",
+    "static/js/main.1c4d6c0f.js"
   ]
 }
