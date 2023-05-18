@@ -5,6 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import products from './Components/back/data/products';
 import productTypes from './Components/back/data/productTypes';
 import Footer from './Components/front/Footer/Footer';
+import './App.scss';
 
 function App() {
     const { productItems } = products;
