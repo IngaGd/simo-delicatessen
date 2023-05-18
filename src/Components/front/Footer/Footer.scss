@@ -21,3 +21,14 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    .container.nav.bottom {
+        padding-left: 20px;
+        padding-right: 20px;
+        .row {
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+}

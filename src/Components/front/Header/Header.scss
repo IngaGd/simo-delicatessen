@@ -139,14 +139,14 @@
                     justify-content: space-between;
                     font-size: 25px;
                     cursor: pointer;
-                    .fa-glass {
-                        color: black;
-                    }
-                    .fa-instagram {
-                        color: black;
-                    }
+                    .fa-glass,
+                    .fa-instagram,
                     .cart {
                         color: black;
+                        &:hover {
+                            background-color: black;
+                            color: white;
+                        }
                     }
                 }
             }

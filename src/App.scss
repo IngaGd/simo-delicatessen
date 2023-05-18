@@ -14,6 +14,15 @@ body * {
 
 body {
     //font-family: 'Univers TE20 Thin', sans-serif;
+
     font-family: sans-serif;
     letter-spacing: 0.5px;
+}
+
+#root {
+    flex: 1 0 auto;
+}
+
+.container.nav.bottom {
+    flex-shrink: 0;
 }
