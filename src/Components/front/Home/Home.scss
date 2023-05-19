@@ -32,7 +32,6 @@
                         bottom: 50px;
                         left: 50px;
                         color: white;
-                        text-shadow: 1px 1px black;
                         .left {
                             float: left;
                             width: 400px;
@@ -41,8 +40,9 @@
                                 font-size: 26px;
                             }
                             .text {
-                                font-size: 16px;
+                                font-size: 18px;
                                 line-height: 0.6cm;
+                                text-align: justify;
                             }
                         }
                     }

@@ -22,26 +22,30 @@
         }
         .right {
             width: 40%;
+            text-align: justify;
             .item-title {
-                font-size: 20px;
+                font-size: 22px;
                 font-weight: 500;
                 margin-top: 50px;
                 margin-bottom: 50px;
             }
             .item-description {
                 line-height: 0.6cm;
+                font-size: 18px;
             }
             .item-price {
                 margin-top: 20px;
+                font-size: 18px;
             }
             .btn {
                 margin-top: 60px;
                 padding: 5px 15px;
-                font-size: 16px;
+                font-size: 18px;
                 background-color: black;
                 color: white;
                 border: none;
                 border-radius: 2px;
+                font-family: courier;
                 cursor: pointer;
                 transition: all 0.3s;
                 &:hover {

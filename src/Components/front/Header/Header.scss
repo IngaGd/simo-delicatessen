@@ -42,7 +42,7 @@
                         span {
                             padding-top: 10px;
                             padding-left: 5px;
-                            font-family: sans-serif;
+                            font-family: courier;
                             font-size: 20px;
                             text-align: center;
                         }
@@ -76,7 +76,7 @@
                         span {
                             padding-top: 10px;
                             padding-left: 5px;
-                            font-family: sans-serif;
+                            font-family: courier;
                             font-size: 20px;
                             text-align: center;
                         }
@@ -98,6 +98,7 @@
                         font-size: 18px;
                         text-decoration: none;
                         color: black;
+                        font-family: courier;
                     }
                     &:hover {
                         .track {

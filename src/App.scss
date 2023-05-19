@@ -1,4 +1,7 @@
-@import url(//db.onlinewebfonts.com/c/1c6eb2519248229e6860a41985bf1827?family=Univers+TE20+Thin);
+@font-face {
+    font-family: courier;
+    src: url(../src/Components/back/font/Courier-BOLD.ttf);
+}
 
 html {
     scroll-behavior: smooth;
@@ -15,7 +18,7 @@ body * {
 body {
     //font-family: 'Univers TE20 Thin', sans-serif;
 
-    font-family: sans-serif;
+    font-family: courier;
     letter-spacing: 0.5px;
 }
 
