@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 import './Products.scss';
 
 function Products({ productItems, handleAddProduct }) {
@@ -64,6 +65,7 @@ function Products({ productItems, handleAddProduct }) {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }

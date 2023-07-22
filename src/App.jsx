@@ -64,7 +64,6 @@ function App() {
                     handleRemoveProduct={handleRemoveProduct}
                     handleCartClearance={handleCartClearance}
                 />
-                <Footer />
             </Router>
         </div>
     );
